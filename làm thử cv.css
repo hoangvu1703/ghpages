@@ -147,7 +147,9 @@ i {
 }
 .qrt {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 12px;
+    gap: 10px;
 }
 .QWE {
     color: black;
@@ -232,7 +234,7 @@ i {
 .lang {
     width: 50%;
 }
-@media screen and (min-width: 150px) and (max-width: 900px) {
+@media screen and (min-width: 150px) and (max-width: 319px) {
    .container-main {
     flex-direction: column;
    }
@@ -276,5 +278,93 @@ i {
     display: flex;
     flex-direction: column;
    }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .container-main {
+        max-width: 479px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .future {
+        width:100%;
+        justify-content: center;
+    }
+    .iiss {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ruler,.build {
+        display:none
+    }
+    .cv-left {
+        width :100%
+    }
+    .cv-right {
+        width: 100%;
+    }
+    .hello, .ez, .ite {
+        background-color: #00b14f;
+    }
+    .color-text {
+        color: #ffffff;
+    }
+    .cv-skill-bar {
+        display:none;
+    }
+    .percent {
+        display:flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .super-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    .container-main {
+        max-width: 1023px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .future {
+        width:100%;
+        justify-content: center;
+    }
+    .iiss {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ruler,.build {
+        display:none
+    }
+    .cv-left {
+        width :100%
+    }
+    .cv-right {
+        width: 100%;
+    }
+    .hello, .ez, .ite {
+        background-color: #00b14f;
+    }
+    .color-text {
+        color: #ffffff;
+    }
+    .cv-skill-bar {
+        display:none;
+    }
+    .percent {
+        display:flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .super-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
     
