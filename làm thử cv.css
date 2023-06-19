@@ -232,7 +232,7 @@ i {
 .lang {
     width: 50%;
 }
-@media screen and (min-width: 200px) and (max-width: 900px) {
+@media screen and (min-width: 150px) and (max-width: 900px) {
    .container-main {
     flex-direction: column;
    }
